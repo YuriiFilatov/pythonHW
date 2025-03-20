@@ -1,0 +1,23 @@
+version = 1
+revision = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "filatov-latex-generator"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/bf/2b8ced6f843b3400f3e53f93d9cc4ec904d84e14c58e1aaf929e467ef549/filatov_latex_generator-0.1.0.tar.gz", hash = "sha256:81be57c152e4ecfe7d2d08edcc7a717dca449150510df0ef8c91bce5b821f4f1", size = 2505 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7e/d2/6b552e8cce7483b9c919a99f900bcf976f2fcd232e6c066e4e2a5e122848/filatov_latex_generator-0.1.0-py3-none-any.whl", hash = "sha256:1544b15b91b4f0b74323334e87875694e0692cc7dac6b6ae48f5fca7b3c5bf06", size = 2571 },
+]
+
+[[package]]
+name = "scripts"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "filatov-latex-generator" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "filatov-latex-generator", specifier = ">=0.1.0" }]

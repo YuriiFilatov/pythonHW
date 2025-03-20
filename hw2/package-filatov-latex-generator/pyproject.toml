@@ -1,14 +1,11 @@
 [build-system]
-requires = [ "setuptools>=61.0", "wheel>=0.36.0" ]
+requires = [ "setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "filatov_latex_generator"
 version = "0.1.0"
-authors = [{ 
-    name = "Yurii Filatov",
-    email = "yura_filatov_2004@mail.ru" 
-}]
+authors = [{ name = "Yurii Filatov",email = "yura_filatov_2004@mail.ru" }]
 readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = [
@@ -21,6 +18,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/YuriiFilatov/pythonHW/tree/main/hw2"
 
 [tool.setuptools]
 license-files = []
