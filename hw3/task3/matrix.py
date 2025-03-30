@@ -7,6 +7,7 @@ cache = {}
 
 class HashMixin:
     def __hash__(self):
+        # Hash считается от произведения чисел в матрице
         hash = 1
         for row in self.data:
             for elem in row:
