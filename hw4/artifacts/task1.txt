@@ -1,0 +1,3 @@
+Nothing: 5.5124
+Threading: 5.7883
+Multiprocessing: 3.0252

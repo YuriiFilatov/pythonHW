@@ -1,0 +1,12 @@
+^C(hw4) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW/hw4$ python3 task3/main.py 
+hello my name is Yura
+uryyb zl anzr vf lhen
+ABC
+nop
+aba
+non
+aba
+aba
+non
+non
+^C(hw4) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW/hw4$ 
