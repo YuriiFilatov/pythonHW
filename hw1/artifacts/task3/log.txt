@@ -1,0 +1,13 @@
+(pythonHW) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW$ python hw1/task3/main.py hw1/artifacts/task3/hello_world.txt hw1/artifacts/task3/bye_world.txt
+      2       4      25 hw1/artifacts/task3/hello_world.txt
+      2       4      20 hw1/artifacts/task3/bye_world.txt
+      4       8      45 total
+
+(pythonHW) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW$ python hw1/task3/main.py hw1/task2/main.py 
+     21      61     648 hw1/task2/main.py
+
+(pythonHW) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW$ python hw1/task3/main.py
+123
+123
+123
+      3       3      12

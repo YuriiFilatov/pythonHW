@@ -1,0 +1,77 @@
+(pythonHW) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW$ python3 hw1/task2/main.py hw1/task2/main.py hw1/artifacts/task1/file.txt hw1/artifacts/task1/log.txt
+==> hw1/task2/main.py <==
+                print(f"==> {filename} <==")
+            with open(filename, 'r', encoding='utf-8') as f:
+                lines = f.read().splitlines() 
+                for line in lines[-10:]:
+                    print(line)
+                if i < num_files:
+                    print()
+
+if __name__ == "__main__": 
+    main()
+
+==> hw1/artifacts/task1/file.txt <==
+1
+abc
+aaksdmlaksmdklasd
+
+
+ababa
+
+==> hw1/artifacts/task1/log.txt <==
+aba caba
+123
+
+
+ababaaa
+1       aba caba
+2       123
+3
+4
+5       ababaaa
+
+
+(pythonHW) yurafilatov@compute-vm-4-8-20-hdd-1727903005528:~/python_hw/pythonHW$ python hw1/task2/main.py 
+1213
+1231
+123
+123
+123
+1
+23
+12
+31
+2
+31
+2
+3
+12
+13
+
+312
+123
+
+312
+123
+312
+132
+132
+1
+31
+2
+31
+2
+3
+12
+13
+
+312
+123
+
+312
+123
+312
+132
+132
+1
